@@ -1,0 +1,9 @@
+data/
+exps/
+venv/
+build/
+dist/
+syntax/checker.c
+*.egg-info/
+*.pyc
+*.so
