@@ -7,7 +7,7 @@ import json
 class Ast():
 	def __init__(self, j_ast, guid=None):
 		self.guid = guid
-		if j_ast.has_key('guid'):
+		if 'guid' in j_ast:
 			self.guid = j_ast['guid']
 			del j_ast['guid']
 		self.astJson = j_ast
